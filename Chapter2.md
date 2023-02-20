@@ -115,11 +115,25 @@
 ### 3. Availability Requirements
 
 - What are these requirements aimed at?
-    > ...
-- What are the metrics that allow you to track the fulfillment of these requirements? (Maximum Tolerable Downtime and Recovery Time Objective; they should be defined in SLA)
-    > ...
+    > refers to ensuring the availability of the system and/or data, that is processed by the system, and protecting against destruction of those assets
+- What are the metrics that allow you to track the fulfillment of these requirements?
+    > to track the fulfillment of these requirements we can use the following metrics:
+    >
+    >> _MTD - Maximum Tolerable Downtime_
+    >>
+    >> "is the measure of the maximum amount of time that the software can be in a state of not providing expected service. In other words, it is the measure of the minimum level of availability that is required of the software for business operations to continue without unplanned disruptions as per expectations."
+    >
+    >> _RTO - Recovery Time Objective_
+    >>
+    >> is the amount of time by which the system or software needs to be restored back to the expected state of business operations for authorized business users when it goes down
+    >
+    > Both of them should be explicitly stated in the SLA, which stands for Service Level Agreement, that includes all important expectations regarding the availability of the system and/or data. Those requirements and metrics should be prepared based on Business Impact Analysis (BIA).
 - Examples
-    > ...
+    > “The software shall ensure high availability of five nines (99.999%) as defined in the SLA.”
+    >
+    > “The number of users at any one given point of time who should be able to use the software can be up to 300 users.”
+    >
+    > “Software and data should be replicated across data centers to provide load balancing and redundancy.”
 
 ### 4. Authentication Requirements
 
