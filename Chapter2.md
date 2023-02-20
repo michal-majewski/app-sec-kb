@@ -100,7 +100,7 @@
     >
     >> _Cyclic Redundancy Checking (CRC)_
     >>
-    >> Upon data transmission, each block of data is given a computed CRC value, commonly referred to as a checksum. If there is an alteration between the origin of data and its destination, the checksum sent at the origin will not match the one that is computed at the destination.
+    >> "Upon data transmission, each block of data is given a computed CRC value, commonly referred to as a checksum. If there is an alteration between the origin of data and its destination, the checksum sent at the origin will not match the one that is computed at the destination."
     >
     >> _Hashing_
     >>
